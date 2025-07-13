@@ -1,0 +1,16 @@
+# Backend (Spring Boot)
+backend/target/
+backend/.settings/
+backend/.project
+backend/.classpath
+backend/.factorypath
+
+# IDEs and tools
+.metadata/
+.sonarlint/
+*.iml
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

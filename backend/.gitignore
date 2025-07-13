@@ -1,0 +1,16 @@
+@"
+# Backend (Spring Boot)
+backend/target/
+backend/.idea/
+backend/.settings/
+*.log
+
+# IDEs and tools
+.metadata/
+.sonarlint/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
