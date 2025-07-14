@@ -1,16 +1,26 @@
-# Backend (Spring Boot)
-backend/target/
-backend/.settings/
-backend/.project
+# Ignore IDE and build files inside backend/
 backend/.classpath
+backend/.project
+backend/.settings/
 backend/.factorypath
+backend/target/
+backend/.gitignore
 
-# IDEs and tools
-.metadata/
-.sonarlint/
+# Global IDE ignores
+.idea/
 *.iml
-*.log
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+HELP.md

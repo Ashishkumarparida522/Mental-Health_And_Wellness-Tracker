@@ -1,16 +1,25 @@
-@"
-# Backend (Spring Boot)
+# Build output
+target/
 backend/target/
-backend/.idea/
-backend/.settings/
-*.log
 
-# IDEs and tools
-.metadata/
-.sonarlint/
+# Eclipse and IntelliJ project files
+.classpath
+.project
+.settings/
+.idea/
 *.iml
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
 
 # OS files
 .DS_Store
 Thumbs.db
-"@ | Set-Content .gitignore
+
+# Misc
+HELP.md
